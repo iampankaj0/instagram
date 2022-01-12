@@ -1,0 +1,96 @@
+.profile-section{
+    margin-top: 30px;
+}
+
+.profile-section .col-4 img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.user-name{
+    display: flex;
+}
+
+.user-name h1{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 20px;
+}
+
+
+.follow-btn{
+    color: #fff!important;
+    background-color: #0095f6!important;
+    text-transform: capitalize;
+    height: 30px!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    font-weight: 500!important;
+}
+
+.follow-btn:focus{
+    background-color: #91d3ff!important;
+}
+
+.social{
+    display: flex;
+    margin-top: 15px;
+}
+
+.social span{
+    font-weight: 500;
+}
+
+.social .post,
+.social .follower{
+    margin-right: 30px;
+}
+
+.name-bio{
+    margin-top: 15px;
+} 
+
+.name-bio h2{
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.mobile-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-social span{
+    font-weight: 500;
+}
+
+.about-details-bio{
+    padding: 0.8rem 0;
+    margin-top: 15px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+
+@media screen and (max-width: 767px) {
+    .profile-section .col-4 img{
+        width: 77px;
+        height: 77px;
+    }
+    .user-name{
+        display: block;
+    }
+    .user-name button{
+        width: 70%;
+        height: auto;
+    }
+    .social{
+        display: none;
+    }
+    .bio-desk{
+        display: none;
+    }
+}
