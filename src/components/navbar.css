@@ -43,7 +43,9 @@
     font-weight: 500!important;
 }
 
-
+.nav-tabs {
+    justify-content: center;
+}
 
 @media screen and (max-width: 767px) {
     .search-bar{
